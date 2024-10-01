@@ -1,6 +1,6 @@
                                     /* slider_area */
 .theme-secondary{
-    background: white !important;
+    background: whitesmoke!important;
     color: #777777 !important;
 }
 .nav-link{
@@ -187,8 +187,8 @@ object-fit: cover;
     padding-bottom: 55px;
 }
 .trusted_company img{
-    height: 90px;
-    width: 100px;
+    height: 120px;
+    width: 130px;
 }
 .trusted_company{
     justify-content: space-evenly;
@@ -220,3 +220,23 @@ object-fit: cover;
     border: 1px solid grey;
     color: #fff;
 }
+.slider_flex{
+    display: flex;
+}
+.slider_img{
+    width: 600px;
+}
+                                            /* animations duration  */
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 1.4s;
+}
+                                                /* arrows color  */
+    .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 25px;
+        line-height: 1;
+        opacity: .75;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
